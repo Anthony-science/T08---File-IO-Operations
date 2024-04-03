@@ -15,7 +15,6 @@ for line in cl_lines:
     for names in line:
         names = line.split(" ", 2)[0:2]
     print(' '.join(names))
-# print("\n\n")
 
 print(bold_start + '\n\nBirthdate' + bold_end)
 # Extract last three 'words' as d.o.b.
