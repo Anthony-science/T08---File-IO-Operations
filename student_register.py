@@ -18,7 +18,7 @@ with open('reg_numbers.txt', 'w') as file:
     for i in range(num_students):
         # Request ID numbers
         id_num = input(f"\nPlease enter student ID number:{i + 1}: ")
-        file.write(id_num + '\n.......................... \n')  # Add entry and dotted line
+        file.write(id_num + '\n.......................... \n\n')  # Add entry and dotted line
 # Confirm data writing
 print("\nID number added to reg_numbers.txt")
 # Give option to display the file output

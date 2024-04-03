@@ -8,16 +8,16 @@ with open("Input Code Files\\Task file\\DOB.txt", 'r') as file:
 bold_start = '\033[1m'
 bold_end = '\033[0m'
 
-print(bold_start + 'Name' + bold_end)
+print(bold_start + '\nName' + bold_end)
 # Create a loop to read through each line
 # Extract the first two words from each line as names
 for line in cl_lines:
     for names in line:
         names = line.split(" ", 2)[0:2]
     print(' '.join(names))
-print("\n\n")
+# print("\n\n")
 
-print(bold_start + 'Birthdate' + bold_end)
+print(bold_start + '\n\nBirthdate' + bold_end)
 # Extract last three 'words' as d.o.b.
 for line in cl_lines:
     for dob in line:
